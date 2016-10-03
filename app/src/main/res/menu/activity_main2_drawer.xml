@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_1"
+            android:icon="@drawable/radiobox_marked"
+            android:title="Calibrador" />
+        <item
+            android:id="@+id/nav_2"
+            android:icon="@drawable/magnify"
+            android:title="Zoom por proximidad" />
+        <item
+            android:id="@+id/nav_3"
+            android:icon="@drawable/compass"
+            android:title="Brújula" />
+    </group>
+
+    <item android:title="Comparte">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartir" />
+        </menu>
+    </item>
+
+</menu>
