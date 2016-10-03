@@ -107,7 +107,7 @@ public class Main2Activity extends AppCompatActivity
         } else if (id == R.id.nav_share) {
             Intent intent = new Intent(Intent.ACTION_SEND);
             intent.setType("text/plain");
-            intent.putExtra(Intent.EXTRA_TEXT, "App MiniProyecto Sensores creado por Paola Gálvez");
+            intent.putExtra(Intent.EXTRA_TEXT, "App MiniProyecto Sensores creado por Paola Gálvez https://github.com/HiPaoG/MiniProyectosSensores.git");
             startActivity(Intent.createChooser(intent, "Compartir con"));
         }
 
