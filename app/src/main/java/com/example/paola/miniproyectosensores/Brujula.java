@@ -50,7 +50,7 @@ public class Brujula extends AppCompatActivity implements SensorEventListener {
         }
 
         RotateAnimation ra = new RotateAnimation(currentDegree, degree, Animation.RELATIVE_TO_SELF, 0.5F, Animation.RELATIVE_TO_SELF, 0.5f);
-        ra.setDuration(2000);
+        ra.setDuration(1000);
         ra.setFillAfter(true);
         imgCompass.startAnimation(ra);
         currentDegree = -degree;
